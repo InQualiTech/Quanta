@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <Version>0.0.1</Version>
+    <Copyright>Inqualitech © 2020</Copyright>
+    <PackageLicenseFile>MIT.md</PackageLicenseFile>
+    <Company>Inqualitech</Company>
+    <Authors>Inqualitech</Authors>
+    <Product>Quanta</Product>
+    <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Inqualitech.Exceptions.Resources\Inqualitech.Exceptions.Resources.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Z:\Licenses\MIT.md">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>
