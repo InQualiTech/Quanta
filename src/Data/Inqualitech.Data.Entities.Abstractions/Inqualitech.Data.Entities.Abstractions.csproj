@@ -1,0 +1,8 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>$(AspNetCoreTargetFramework)</TargetFramework>
+    <RootNamespace>Inqualitech.Data.Entities</RootNamespace>
+  </PropertyGroup>
+
+</Project>

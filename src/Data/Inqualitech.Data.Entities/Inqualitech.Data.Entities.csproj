@@ -1,0 +1,11 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>$(AspNetCoreTargetFramework)</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Inqualitech.Data.Entities.Abstractions\Inqualitech.Data.Entities.Abstractions.csproj" />
+  </ItemGroup>
+
+</Project>
