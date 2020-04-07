@@ -1,6 +1,8 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
+  <Import Project="../../../build/Quanta.DotNetStandard.props"/>
+  
   <PropertyGroup>
-    <TargetFramework>$(AspNetCoreTargetFramework)</TargetFramework>
+    <TargetFramework>$(TargetFramework)</TargetFramework>
   </PropertyGroup>
   <ItemGroup>
     <ProjectReference Include="..\Inqualitech.Exceptions.Resources\Inqualitech.Exceptions.Resources.csproj" />

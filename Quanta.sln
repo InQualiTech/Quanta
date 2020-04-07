@@ -21,6 +21,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Inqualitech.Data.Entities",
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Inqualitech.Data.Entities.Abstractions", "src\Data\Inqualitech.Data.Entities.Abstractions\Inqualitech.Data.Entities.Abstractions.csproj", "{1B87002D-3FD2-45BC-A6F4-A0E90A537CCD}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "build", "build", "{8EA7B288-68A4-42CF-9412-5C215F210CA5}"
+	ProjectSection(SolutionItems) = preProject
+		build\Quanta.DotNetStandard.props = build\Quanta.DotNetStandard.props
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
